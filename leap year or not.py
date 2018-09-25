@@ -3,10 +3,11 @@ year=int(input("input:"))
 if (year % 4) == 0:
    if (year % 100) == 0:
        if (year % 400) == 0:
-           print("{0} yes".format(year))
+           print("{ yes")
        else:
-           print("{0} not".format(year))
+           print(" not")
    else:
-       print("{0} yes".format(year))
+       print("yes")
 else:
-   print("{0} not".format(year))
+   print("not")
+   
